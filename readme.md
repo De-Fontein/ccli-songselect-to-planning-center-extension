@@ -23,16 +23,11 @@ This project aims to automate the 24-step process through a userscript.
 
 ## TODO:
 
-1. Filter out (x2), (x3), (x4) and (2x), x2, 2x, etc. from ChordPro.
-2. Filter out duplicate empty lines from ChordPro.
-3. Filter out (To Chorus) and other references from ChordPro.
-4. Add missing square brackets to chords.
-5. Detect songs without section headers, add a `GENERAL` section header to such songs.
-6. Detect section headers without `FULL UPPERCASING` and make them uppercase.
-7. Detect section headers and ensure all of them are unique (auto increment with numbers starting from 1).
-8. Check if a song exists within the archived songs in Planning Center (to prevent issues when adding the song)
-9. Extract the tempo/bpm from the chords page or lead sheet page (through the CCLI API).
-10. Support importing songs without ChordPro
+Rewrite this extension:
+- Remove the dependency on CCLI since PC can import ChordPro nowadays.
+- Add autofixes in the lyrics & chords editor.
+- Add highlighting for non-auto fixable issues in the lyrics & chords editor.
+
 
 ## Development guide
 
